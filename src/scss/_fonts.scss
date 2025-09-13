@@ -1,0 +1,29 @@
+@font-face {
+  font-family: "Inter";
+  src: url("./font/Inter/Inter-VariableFont_opsz\,wght.woff2") format("woff2"),
+    url("./font/Inter/Inter-VariableFont_opsz\,wght.woff") format("woff");
+  src: url("./font/Inter/Inter-VariableFont_opsz\,wght.woff2") format("woff2")
+      tech("variations"),
+    url("./font/Inter/Inter-VariableFont_opsz\,wght.woff") format("woff")
+      tech("variations");
+  font-weight: 100 1000;
+  font-style: normal;
+  font-display: swap;
+  font-stretch: 25% 150%;
+}
+
+@font-face {
+  font-family: "Play Fair";
+  src: url("./font/PlayfairDisplay/PlayfairDisplay-VariableFont_wght.woff2")
+      format("woff2"),
+    url("./font/PlayfairDisplay/PlayfairDisplay-VariableFont_wght.woff")
+      format("woff");
+  src: url("./font/PlayfairDisplay/PlayfairDisplay-VariableFont_wght.woff2")
+      format("woff2") tech("variations"),
+    url("./font/PlayfairDisplay/PlayfairDisplay-VariableFont_wght.woff")
+      format("woff") tech("variations");
+  font-weight: 100 1000;
+  font-style: normal;
+  font-display: swap;
+  font-stretch: 25% 150%;
+}
