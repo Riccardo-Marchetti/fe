@@ -6,7 +6,8 @@ import path from "path";
 export default defineConfig({
   plugins: [react()],
   build: {
-    outDir: path.resolve(__dirname, "../be/src/main/resources/static"),
+    outDir: path.resolve(__dirname, "../dist"),
     emptyOutDir: true,
   },
+  base: "/",
 });
