@@ -1,4 +1,4 @@
-import logo__white from "../../../assets/logo__white.webp";
+// import logo__white from "../../../assets/logo__white.webp";
 
 const Footer = () => {
   return (
@@ -16,9 +16,7 @@ const Footer = () => {
         </div>
 
         <div className="footer__logo">
-          <a href="/">
-            <img src={logo__white} alt="logo" />
-          </a>
+          <a href="/">{/* <img src={logo__white} alt="logo" /> */}</a>
         </div>
 
         <div className="footer__nav">

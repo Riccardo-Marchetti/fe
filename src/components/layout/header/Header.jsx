@@ -1,5 +1,5 @@
-import logoWhite from "../../../assets/logo__white.webp";
-import logo from "../../../assets/logo__black.webp";
+// import logoWhite from "../../../assets/logo__white.webp";
+// import logo from "../../../assets/logo__black.webp";
 import { useState } from "react";
 import { gsap } from "gsap";
 
@@ -48,7 +48,7 @@ const Header = ({ isDark, lenis }) => {
           <div className="header__left">
             <div className="header__logo">
               <a href="/">
-                <img src={isDark ? logo : logoWhite} alt="logo" />
+                {/* <img src={isDark ? logo : logoWhite} alt="logo" /> */}
               </a>
             </div>
           </div>
