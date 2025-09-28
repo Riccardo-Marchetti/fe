@@ -10,7 +10,7 @@ const Blog = () => {
     const fetchBlogs = async () => {
       try {
         const response = await fetch(
-          "http://testpiastrellista.local:3001/blog"
+          "http://testpiastrellista.local:8090/blog"
         );
         if (!response.ok) {
           throw new Error("Failed to fetch blogs");
