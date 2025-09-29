@@ -9,9 +9,7 @@ const Blog = () => {
   useEffect(() => {
     const fetchBlogs = async () => {
       try {
-        const response = await fetch(
-          "http://testpiastrellista.local:8090/blog"
-        );
+        const response = await fetch("http://testpiastrellista.local/blog");
         if (!response.ok) {
           throw new Error("Failed to fetch blogs");
         }
