@@ -5,7 +5,7 @@ import path from "path";
 export default defineConfig({
   plugins: [react()],
   build: {
-    outDir: path.resolve(__dirname, "./public_html"),
+    outDir: path.resolve(__dirname, "dist"),
     emptyOutDir: true,
   },
   base: "/",
