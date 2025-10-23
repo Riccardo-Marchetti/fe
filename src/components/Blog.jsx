@@ -9,13 +9,12 @@ const Blog = () => {
   useEffect(() => {
     const fetchBlogs = async () => {
       try {
-        const response = await fetch(
-          "http://testpiastrellista.local:8080/blog"
-        );
+        const response = await fetch("http://31.97.47.207:8080/blog");
         if (!response.ok) {
           throw new Error("Failed to fetch blogs");
         }
         const data = await response.json();
+        console.log(data);
         setBlogs(data.content); // Assuming the response has a 'content' field for the blog list
         setLoading(false);
       } catch (err) {
