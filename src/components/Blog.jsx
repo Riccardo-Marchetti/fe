@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import marmo from "../assets/marmo.webp";
+import { Link } from "react-router-dom";
 
 const Blog = () => {
   const [blogs, setBlogs] = useState([]);
@@ -53,7 +54,7 @@ const Blog = () => {
             {blogs.map((blog) => (
               <div key={blog.id} className="blog__item">
                 <div className="card">
-                  <a href={`/blog/${blog.id}`}>
+                  <Link to={`/blog/${blog.id}`}>
                     <div className="card__img">
                       <img src={marmo} alt={blog.title} loading="lazy" />
                     </div>
@@ -69,7 +70,7 @@ const Blog = () => {
                         <span>Leggi l'articolo</span>
                       </div>
                     </div>
-                  </a>
+                  </Link>
                 </div>
               </div>
             ))}

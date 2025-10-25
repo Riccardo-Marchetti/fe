@@ -41,7 +41,7 @@ function AppContent({ lenis }) {
           <Route path="/service" element={<Service />} />
           <Route path="/material" element={<Material />} />
           <Route path="/blog" element={<Blog />} />
-          <Route path="/blog/blogDetail" element={<BlogDetail />} />
+          <Route path="/blog/:id" element={<BlogDetail />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/admin" element={<Admin />} />
         </Routes>
